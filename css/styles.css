@@ -176,6 +176,14 @@ body{
     letter-spacing: 0.03em;
     color:rgba(255, 255, 255, 0.6);
 }
+.footer-contact:hover,
+.footer-contact:focus{
+    color: var(--accent-color);
+}
+.footer-mail:hover,
+.footer-mail:focus{
+    color: var(--accent-color);
+}
 /*=================/footer============*/
 /*=================portfolio==========*/
 .knob{
@@ -192,12 +200,13 @@ body{
     color:var(--primary-text-color);
     background-color:#f5f5fa;
 }
-.knob-active{
+.knob:hover,
+.knob:focus{
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     border:none;
     /* identical to box height, or 162% */
 
