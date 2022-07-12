@@ -52,12 +52,13 @@ body{
 }
 .contact:hover,
 .contact:focus{
-    color:var(--accent-color);s
+    color:var(--accent-color);
 }
+
 /*===================/header===================*/
 /*==================main======================*/
 .hero-tittle{
-    font-style: normal;
+    font-style:normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.5;
@@ -187,7 +188,7 @@ body{
 /*=================/footer============*/
 /*=================portfolio==========*/
 .knob{
-    font-famali:var(--primary-font);
+    font-family:var(--primary-font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
